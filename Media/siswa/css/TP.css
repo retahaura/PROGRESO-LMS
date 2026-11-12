@@ -1,0 +1,207 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header dan Footer */
+.header, .footer {
+    background: linear-gradient(to right, #00B4D8, #0084ff);
+    color: white;
+    padding: 16px 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .container, .footer .container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+nav a:hover {
+  opacity: 0.8;
+}
+
+/* FOOTER SOCIAL ICONS */
+
+.footer .social-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer .social-icons a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer .social-icons a:hover {
+    text-decoration: underline;
+}
+
+.tp-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin: 50px;
+}
+
+/* Baris atas (2 box sejajar) */
+.tp-row {
+  display: flex;
+  gap: 40px;
+}
+
+.tp-row .tp-box {
+  flex: 1;
+}
+
+/* Baris bawah (1 box full width) */
+.tp-row.full {
+  width: 100%;
+}
+
+.tp-row.full .tp-box {
+  width: 100%;
+  flex: none;
+}
+
+.tp-box {
+  background: linear-gradient(to right, #00B4D8, #0084ff);
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  color: white;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tp-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.tp-box h3 {
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.tp-box ol li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+  color: #f9f9f9;
+}
+
+/* Tombol Mulai */
+.btn-mulai {
+    margin-top: 25px;
+}
+
+.btn-mulai a {
+    background: linear-gradient(to right, #00B4D8, #0084ff);
+    color: white;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn-mulai a:hover {
+    background: linear-gradient(to right, #0084ff, #00B4D8);
+}
+
+
+
+
+
+/* Container utama konten */
+/*.content-container {*/
+/*    max-width: 900px;*/
+/*    margin: 40px auto;*/
+/*    background: white;*/
+/*    padding: 30px;*/
+/*    border-radius: 12px;*/
+/*    box-shadow: 0 4px 10px rgba(0,0,0,0.1);*/
+/*    text-align: center;*/
+/*}*/
+
+/*.content-container h2 {*/
+/*    font-size: 26px;*/
+/*    color: #0084ff;*/
+/*    margin-bottom: 15px;*/
+/*}*/
+
+/*.tujuan-list {*/
+/*    text-align: left;*/
+/*    margin: 20px auto;*/
+/*    padding-left: 20px;*/
+/*    line-height: 1.8;*/
+/*    color: #333;*/
+/*}*/
+
+/*.tujuan-list li {*/
+/*    margin-bottom: 10px;*/
+/*}*/
+
+/* Tombol Mulai */
+/*.btn-mulai {*/
+/*    margin-top: 25px;*/
+/*}*/
+
+/*.btn-mulai a {*/
+/*    background: linear-gradient(to right, #00B4D8, #0084ff);*/
+/*    color: white;*/
+/*    padding: 12px 28px;*/
+/*    border-radius: 8px;*/
+/*    font-weight: 600;*/
+/*    text-decoration: none;*/
+/*    transition: background 0.3s ease;*/
+/*}*/
+
+/*.btn-mulai a:hover {*/
+/*    background: linear-gradient(to right, #0084ff, #00B4D8);*/
+/*}*/
+
+/* Responsif untuk layar kecil */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .container h2 {
+        font-size: 22px;
+    }
+
+    .tujuan-list li {
+        font-size: 14px;
+    }
+
+    .btn-mulai a {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}

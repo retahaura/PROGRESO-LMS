@@ -1,0 +1,195 @@
+
+/* MAIN KONTEN */
+.content {
+  flex: 1;
+  margin: 0px auto 40px auto; 
+  padding: 40px;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.highlight-box {
+  background: linear-gradient(to right, #023E8A, #00B4D8); 
+  padding: 16px 16px 16px 32px; 
+  height: auto;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  margin-top: 0;
+  align-items: flex-start; 
+  display: flex;
+  overflow-wrap: break-word; 
+  max-width: 100%; 
+  flex-direction: column; 
+}
+
+.highlight-box h2 {
+  color: rgb(255, 255, 255); 
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.highlight-box p {
+  word-break: break-word;
+  white-space: normal;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  color: white; 
+  font-size: 14px;
+}
+
+
+/*.highlight-box button {*/
+/*  font-weight: 600;*/
+/*  display: block;*/
+/*  background-color: #00B4D8;*/
+/*  color: rgb(255, 255, 255);*/
+/*  border: none;*/
+/*  padding: 12px 20px;*/
+/*  border-radius: 8px;*/
+/*  cursor: pointer;*/
+/*  margin-top: 16px;*/
+/*  transition: background-color 0.8s ease;*/
+/*}*/
+
+/*.highlight-box button:hover {*/
+/*      background: linear-gradient(to right, #0097A7, #00B4D8);*/
+/*      transition: all 0.8s ease;*/
+/*      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
+/*      opacity: 0.9;*/
+/*}*/
+
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+  background-color: #f9f9f9;
+  flex: 1;
+  flex-direction: column;
+  min-width: 250px;
+  padding: 20px;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  /*width: 100px;*/
+  /*height: 100px;*/
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.card h4 {
+  font-size: 18px;
+  margin: 8px 0;
+}
+
+.card button {
+  background: linear-gradient(135deg,  #007bbd, #00b6e2);
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block; 
+  transition: background-color 0.8s ease;
+}
+
+.card button:hover{
+  background: #00b4d8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.8s ease;
+  opacity: 0.9;
+}
+
+
+.progress-section, .badge-section {
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  background-color: #f9f9f9;
+  padding: 16px;
+  border-radius: 14px;
+  margin-bottom: 24px;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #ccc;
+  border-radius: 5px;
+  height: 10px;
+  margin-top: 8px;
+}
+
+.progress-bar-fill {
+  width: 60%; /* Sesuaikan nilai progres */
+  background-color: #042839;
+  height: 100%;
+  border-radius: 5px;
+}
+
+/* #023E8A, #00B4D8  background: linear-gradient(to right, #023E8A, #00B4D8); */
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-simulasi {
+  background: linear-gradient(135deg,  #007bbd, #00b6e2);
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block; 
+  transition: background-color 0.8s ease;
+   margin-top: auto; /* biar posisi bawah */
+}
+
+.btn-simulasi:hover {
+  background: #00b4d8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.8s ease;
+  opacity: 0.9;
+}
+
+
+
+
+
+
+.btn-locked {
+  background-color: #bbb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  cursor: not-allowed;
+}
+
+.btn-completed {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+}
+

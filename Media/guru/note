@@ -1,0 +1,111 @@
+        <!-- <ul class="menu">
+          <li><a href="admin-dashboard.html"><i class="fas fa-tachometer-alt"></i><span>Dashboard</span></a></li>
+          <li><a href="rekap-siswa.html"><i class="fas fa-users"></i><span>Rekap Siswa</span></a></li>
+
+          <li class="has-submenu">
+            <a href="#"><i class="fas fa-folder-open"></i><span>Eksplorasi Siswa</span></a>
+            <ul class="submenu">
+              <li><a href="#">📘 Materi 1 - Tahap 2</a></li>
+              <li><a href="#">📘 Materi 2 - Tahap 1</a></li>
+              <li><a href="#">📘 Materi 3 - Tahap 3</a></li>
+            </ul>
+          </li>
+
+          <li class="has-submenu">
+            <a href="#"><i class="fas fa-clipboard-check"></i><span>Penilaian</span></a>
+            <ul class="submenu">
+              <li><a href="#">✅ Soal HOTS</a></li>
+              <li><a href="#">📊 Rekap Nilai</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#"><i class="fas fa-file-alt"></i><span>Kesimpulan Siswa</span></a></li>
+          <li><a href="#"><i class="fas fa-book-open"></i><span>Kelola Materi</span></a></li>
+          <li><a href="#"><i class="fas fa-user-cog"></i><span>Kelola Pengguna</span></a></li>
+        </ul> -->
+
+
+
+        /* Submenu Styling */
+.has-submenu > .submenu {
+  list-style: none;
+  padding-left: 45px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.submenu li a {
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 6px 0;
+}
+
+.submenu li a:hover {
+  text-decoration: underline;
+}
+
+.menu .submenu {
+  background-color: transparent;
+}
+
+/* SUBMENU: supaya tidak overflow dan tampil rapi */
+/* Parent menu dengan submenu */
+.has-submenu {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Link utama submenu (misal: Eksplorasi Siswa) */
+.has-submenu > a {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 15px 20px;
+}
+
+/* Panah dropdown di kanan */
+.has-submenu > a::after {
+  content: '\f107'; /* caret-down dari Font Awesome */
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  margin-left: auto;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+/* SUBMENU tampil di bawahnya, bukan menjorok */
+.submenu {
+  display: none;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.05); /* atau transparan */
+  padding-left: 35px;
+  padding-top: 5px;
+}
+
+/* Saat submenu dibuka */
+.submenu.show {
+  display: flex;
+}
+
+/* Link dalam submenu */
+.submenu li {
+  padding: 6px 0;
+}
+
+.submenu li a {
+  font-size: 14px;
+  color: #ffffff;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.submenu li a:hover {
+  text-decoration: underline;
+  color: #dff6ff;
+}

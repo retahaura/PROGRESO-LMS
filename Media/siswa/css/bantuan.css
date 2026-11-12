@@ -1,0 +1,167 @@
+.judul-lkpd-section {
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  flex: 1;
+  padding: 32px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.judul-container {
+  background-color: #f5f5f5;
+  padding: 24px 32px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+
+.judul-container h1 {
+  font-size: 28px;
+  color: #003554;
+  font-weight: 700;
+}
+
+.judul-container p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #000000;
+}
+
+/* Main Content */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  transition: margin-left 0.3s ease;
+  padding: 20px;
+}
+
+.content {
+  flex: 1;
+  box-sizing: border-box;
+}
+
+/* Page Title */
+.page-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: #042839;
+  text-align: center;
+}
+
+/* Guide Section */
+.guide-section {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+
+.guide-section h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 25px;
+   margin-bottom: 20px; 
+  text-align: center;
+  color: #007bbd;
+}
+
+.guide-step {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  border-margin-top: 25px;: 1px solid #d1d5db;
+  padding: 15px 0;
+  box-sizing: border-box;
+}
+
+.guide-text {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.guide-step img {
+  width: 400px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  flex-shrink: 0;
+}
+
+.guide-step p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #042839;
+  text-align: justify;
+}
+
+/* Reference container */
+.reference-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  box-sizing: border-box;
+}
+
+/* Support Section */
+.support-section {
+  margin-top: 40px;
+  flex: 1;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  padding: 25px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #042839;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.support-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.12);
+}
+
+.support-section h2 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #007bbd;
+  margin-bottom: 15px;
+}
+
+.contact-button {
+  display: inline-block;
+  background: linear-gradient(135deg, #007bbd, #00b6e2);
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 10px 25px;
+  text-decoration: none;
+  margin-bottom: 10px;
+  transition: background-color 0.2s ease;
+}
+
+.contact-button:hover {
+  background: #00b4d8;
+}
+
+.contact-info p {
+  font-size: 15px;
+  color: #333;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+

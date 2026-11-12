@@ -1,0 +1,293 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#login {
+  scroll-margin-top: 80px; /* offset scroll supaya tidak ketutup header */
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f2f4f8;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header dan Footer */
+.header, .footer {
+    background: linear-gradient(to right, #00B4D8, #0084ff);
+    color: white;
+    padding: 16px 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .container, .footer .container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+nav a:hover {
+  opacity: 0.8;
+}
+
+.footer .social-icons a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer .social-icons a:hover {
+    text-decoration: underline;
+}
+
+
+/* Hero Section */
+.hero {
+  padding: 40px 20px;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .hero-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  color: #0288a7;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg,  #007bbd, #00b6e2);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
+.btn-primary:hover {
+background:#00b4d8;
+  opacity: 0.9;
+}
+
+.hero-image img {
+max-width: 300px;
+width: 100%;
+height: auto;
+display: block;
+margin: 0 auto; /* Biar gambar tetap center di mode mobile */
+}
+
+@media (max-width: 767px) {
+  .hero-image img {
+    max-width: 200px; /* Atur ukuran gambar jadi lebih kecil saat mobile */
+    margin-bottom: 20px; /* Biar ada jarak dengan bawahnya */
+  }
+}
+
+/* Login Section */
+.login-section {
+  background-color: #f3f4f6;
+  padding: 60px 20px;
+  
+}
+
+.login-container {
+  max-width: 450px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 30px 25px;
+  border-radius: 14px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+}
+
+
+.login-container h2 {
+  color: #3b82f6;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  font-size: 0.95rem;
+}
+
+.login-container input:focus {
+  border-color: #0288a7; /* Biru solid */
+  box-shadow: none; /* Tanpa efek glow */
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.login-container .form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Ini yang memastikan semua elemen dalam satu garis lurus horizontal */
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.login-container .form-options label.remember {
+  display: flex;
+  align-items: center; /* Bikin checkbox + teks sejajar */
+  gap: 8px;
+  margin: 0; /* Biar tidak turun ke bawah */
+}
+
+.login-container .form-options input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin: 0; /* Biar rata atas bawah */
+  vertical-align: middle; /* Tambahan, biar sejajar */
+}
+
+.login-container .form-options .forgot {
+  text-decoration: none;
+  color: #000; /* Ganti sesuai warna teks yang kamu mau */
+  font-weight: 500;
+}
+
+.login-container .form-options .forgot:hover {
+  text-decoration: underline;
+}
+
+
+.login-container button {
+  width: 100%;
+  background: linear-gradient(135deg,  #007bbd, #00b6e2);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-container button:hover {
+ background :#00b4d8;
+  opacity: 0.9;
+}
+
+.signup-text {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.signup-text a {
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.signup-text a:hover {
+  text-decoration: underline;
+}
+
+/* Footer Social Icons */
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+.footer .social-icons {
+    display: flex;
+    gap: 15px; /* Jarak antar icon */
+}
+
+.footer .social-icons a {
+    color: white;                 /* Warna icon default */
+    font-size: 18px;              /* Ukuran icon */
+    text-decoration: none;        /* Hilangkan underline */
+    transition: color 0.3s ease;  /* Animasi hover */
+}
+
+.footer .social-icons a:hover {
+    color: #00B4D8;  /* Warna biru muda saat hover */
+}
+
+/* Responsive header untuk split screen */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav a {
+    margin-left: 10px;
+  }
+}

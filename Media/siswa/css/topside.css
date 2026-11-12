@@ -1,0 +1,302 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* Reset dan dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff; 
+  color: rgb(3, 1, 1);
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Logo area */
+.logo {
+  display: flex;
+  align-items: center;
+  height: 60px; /*  samakan dengan topbar */
+  justify-content: flex-start; 
+  padding: 0 20px;
+
+  gap: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(to right, #023E8A, #00B4D8);
+} 
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: margin 0.3s ease;
+}
+
+/* Logo foto */
+.logo-img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain; /* Agar gambar tidak pecah atau melar */
+}
+
+.logo-text {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+/* Saat sidebar dicollapse, sembunyikan logo secara halus */
+.sidebar.collapsed .logo-container {
+  opacity: 0;
+  transform: translateX(-20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+
+/* Toggle button styling / Tombol menu hamburger (buka/tutup sidebar) */
+#toggleBtn {
+  background: none;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 12px; /* Jarak dari logo */
+  display: flex;
+  transition: transform 0.3s ease;
+}
+
+/* untuk aksebilitas */
+#toggleBtn:focus { 
+  outline: none;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.6);
+  border-radius: 5px;
+}
+
+/* Sidebar */
+.sidebar {
+  position:fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 250px;
+  background-color: #00B4D8; 
+  display: flex;
+  flex-direction: column;
+  transition: width 0.3s ease;
+  overflow: hidden;
+}
+
+/* Sidebar collapse */
+.sidebar.collapsed {
+  width: 55px;
+}
+
+/* Rotate icon when collapsed */
+.sidebar.collapsed #toggleBtn i {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}
+
+/* Menu */
+.menu {
+  list-style: none;
+  padding: 20px 0;
+  flex-grow: 1;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  white-space: nowrap;
+}
+
+.menu-bawah {
+  list-style: none;
+  margin-top: auto; /* Dorong ke bawah */
+  padding-bottom: 5px; /* Opsional: jarak dari bawah */
+
+}
+
+/* untuk aksebilitas */
+.menu li:focus-within {
+  outline: 2px solid rgb(255, 255, 255);
+  border: none;
+}
+
+/* Text inside menu */
+.menu li span {
+  margin-left: 15px;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 16px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.menu li a {
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255); /* Warna teks default */
+  text-decoration: none; /* Hilangkan underline */
+  width: 100%; /* Supaya seluruh area bisa diklik */
+  height: 100%;
+}
+
+.menu li a:focus,
+.menu li a:active,
+.menu li a:visited {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+
+.menu li a {
+  outline: none;
+}
+
+/* Saat sidebar collapse, sembunyikan teks dan atur spacing */
+.sidebar.collapsed .menu li span {
+  /* display: none; Sembunyikan teks */
+  opacity: 0;
+  pointer-events: none;
+  transform: translateX(-20px);
+}
+
+/* Hover effect */
+.menu li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.sidebar.collapsed #toggleBtn {
+  display: inline-block;
+}
+
+/* TOPBAR */
+.topbar {
+  height: 60px;
+  background-color: white;
+  color: #042839;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  margin-left: 250px; /* Sama dengan width sidebar saat terbuka */
+  transition: margin-left 0.3s ease;
+}
+
+.left-content {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.right-content {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Jarak antara search dan bell */
+}
+
+.title {
+  white-space: nowrap; /* Agar tidak kepotong */
+  margin-right: 20px;   /* Tambahan agar tidak nempel search */
+}
+
+/* Kanan: grup search dan ikon */
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* jarak antar elemen kanan */
+}
+
+/* Judul kiri */
+.topbar .title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #000000;
+}
+
+/* Search box */
+.search-box {
+  width: 100%;
+  max-width: 300px;
+  position: relative;
+  /* width: 300px; */
+}
+
+.search-box input {
+  font-family: 'Montserrat', sans-serif;
+  width: 300px;
+  padding: 8px 12px 8px 36px;
+  border: 1px solid #000000;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #000000;
+  outline: none;
+  background-color: #fff;
+}
+
+.search-box i {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+/* Ikon di kanan */
+.topbar-icons i {
+  font-size: 20px;
+  color: #000000;
+  cursor: pointer;
+  margin-right: 40px;
+}
+
+.sidebar + .main-content {
+  padding-left: 0; /* Supaya isi utama tidak terlalu dempet */
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  transition: margin-left 0.3s ease;
+  margin-left: 250px; 
+  /*default saat sidebar terbuka */
+  margin-top: 60px;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.sidebar.collapsed ~ .main-content .topbar {
+  margin-left: 55px; 
+  /* Sama dengan width sidebar saat collapse */
+}
+
+/* Jika sidebar ditutup (misalnya via class .collapsed pada .sidebar) */
+.sidebar.collapsed ~ .main-content {
+  margin-left: 55px; 
+  /* lebar sidebar minimal */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

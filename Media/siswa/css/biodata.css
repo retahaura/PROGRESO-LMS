@@ -1,0 +1,155 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header dan Footer */
+.header, .footer {
+    background: linear-gradient(to right, #00B4D8, #0084ff);
+    color: white;
+    padding: 16px 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .container, .footer .container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+nav a:hover {
+  opacity: 0.8;
+}
+
+/* FOOTER SOCIAL ICONS */
+
+.footer .social-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer .social-icons a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer .social-icons a:hover {
+    text-decoration: underline;
+}
+
+/* ====== Frame Biodata ====== */
+.biodata-container {
+  max-width: 700px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 30px 40px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Judul */
+.biodata-container h2 {
+  font-size: 26px;
+  color: #377dff;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+/* Paragraf */
+.biodata-container p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+/* Foto Profil */
+.profile-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #00B4D8;
+}
+
+/* Detail Biodata */
+.biodata {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.biodata p {
+  font-size: 15px;
+  margin: 8px 0;
+}
+
+/* Sosial Media */
+.sosmed {
+  margin-top: 25px;
+}
+
+.sosmed a {
+  display: inline-block;
+  margin: 0 10px;
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: linear-gradient(135deg,  #007bbd, #00b6e2);
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;  /* hilangin garis bawah */
+  transition: all 0.3s ease;
+  border: none;
+  outline: none;
+}
+
+.sosmed a:hover {
+background: #00b4d8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.8s ease;
+  opacity: 0.9;
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+  .header .container, .footer .container {
+    flex-direction: column;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .biodata-page {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .biodata-page h2 {
+    font-size: 20px;
+  }
+}

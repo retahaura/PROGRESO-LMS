@@ -1,0 +1,107 @@
+/* ==== Rekap Section ==== */
+.rekap-siswa-section {
+  flex: 1;
+  margin: 40px;
+  padding: 32px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+}
+/* ============================= */
+.judul-section-besar {
+  background-color: #f5f5f5;
+  padding: 24px 32px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+
+.judul-section-besar h1 {
+  font-size: 28px;
+  color: #003554;
+  font-weight: 700;
+}
+
+/* ==== Nilai List Section ==== */
+.nilai-list {
+  background-color: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  margin-top: 24px;
+}
+
+/* ==== Tabel Nilai ==== */
+.nilai-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+.nilai-table th {
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 14px;
+  color: #ffffff; /* karena th berada di thead berwarna biru */
+  border-bottom: 1px solid #eee;
+}
+
+.nilai-table td {
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 14px;
+  color: #333;
+  border-bottom: 1px solid #eee;
+}
+
+.nilai-table thead {
+  background: linear-gradient(to right, #0077b6, #00b4d8);
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.nilai-table tbody tr:nth-child(even) {
+  background-color: #f6fbff;
+}
+
+.nilai-table tbody tr:hover {
+  background-color: #e0f7ff;
+  transition: 0.3s ease;
+}
+
+/* === Container Tombol === */
+.submit {
+  text-align: left; /* ubah dari right ke left */
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-start; /* ubah dari flex-end ke flex-start */
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+
+
+/* === Tombol Gaya Utama === */
+.btn-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #0077b6, #00b4d8);
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* === Hover Effect === */
+.btn-primary:hover {
+  background: #00b4d8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.8s ease;
+  opacity: 0.9;
+}

@@ -1,0 +1,340 @@
+[29-Oct-2025 05:52:56 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/mzixenfw/public_html/dbconn/dbconn.php:8
+Stack trace:
+#0 /home/mzixenfw/public_html/dbconn/dbconn.php(8): mysqli->__construct('localhost', 'mzixenfw_admin', 'Progeso.1234', 'mzixenfw_proges...')
+#1 /home/mzixenfw/public_html/guru/admin_beranda.php(2): include('/home/mzixenfw/...')
+#2 {main}
+  thrown in /home/mzixenfw/public_html/dbconn/dbconn.php on line 8
+[29-Oct-2025 05:53:02 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/mzixenfw/public_html/dbconn/dbconn.php:8
+Stack trace:
+#0 /home/mzixenfw/public_html/dbconn/dbconn.php(8): mysqli->__construct('localhost', 'mzixenfw_admin', 'Progeso.1234', 'mzixenfw_proges...')
+#1 /home/mzixenfw/public_html/guru/admin_beranda.php(2): include('/home/mzixenfw/...')
+#2 {main}
+  thrown in /home/mzixenfw/public_html/dbconn/dbconn.php on line 8
+[29-Oct-2025 05:53:03 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/mzixenfw/public_html/dbconn/dbconn.php:8
+Stack trace:
+#0 /home/mzixenfw/public_html/dbconn/dbconn.php(8): mysqli->__construct('localhost', 'mzixenfw_admin', 'Progeso.1234', 'mzixenfw_proges...')
+#1 /home/mzixenfw/public_html/guru/admin_beranda.php(2): include('/home/mzixenfw/...')
+#2 {main}
+  thrown in /home/mzixenfw/public_html/dbconn/dbconn.php on line 8
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:05 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:40 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 108
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 06:59:49 UTC] PHP Warning:  Undefined array key "id_tes" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:51 UTC] PHP Warning:  Undefined array key "id_hasil" in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 107
+[03-Dec-2025 07:00:52 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? && u.users = 'siswa'
+        ORDER BY d.id_tes ASC' at line 16 in /home/mzixenfw/public_html/guru/admin_detail_tes.php:103
+Stack trace:
+#0 /home/mzixenfw/public_html/guru/admin_detail_tes.php(103): mysqli_query(Object(mysqli), '\r\n             ...')
+#1 {main}
+  thrown in /home/mzixenfw/public_html/guru/admin_detail_tes.php on line 103
+[03-Dec-2025 07:01:26 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '? && u.users = 'siswa'
+        ORDER BY d.id_tes ASC' at line 16 in /home/mzixenfw/public_html/guru/admin_detail_tes.php:103
+Stack trace:
+#0 /home/mzixenfw/public_html/guru/admin_detail_tes.php(103): mysqli_query(Object(mysqli), '\r\n             ...')
+#1 {main}
+  thrown in /home/mzixenfw/public_html/guru/admin_detail_tes.php on line 103
+[03-Dec-2025 07:06:01 UTC] PHP Warning:  Undefined variable $GET in /home/mzixenfw/public_html/guru/admin_detail_tes.php on line 9
+[03-Dec-2025 07:06:01 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/mzixenfw/public_html/guru/admin_detail_tes.php on line 9
+[03-Dec-2025 07:06:01 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 7 in /home/mzixenfw/public_html/guru/admin_detail_tes.php:93
+Stack trace:
+#0 /home/mzixenfw/public_html/guru/admin_detail_tes.php(93): mysqli_query(Object(mysqli), '\r\n             ...')
+#1 {main}
+  thrown in /home/mzixenfw/public_html/guru/admin_detail_tes.php on line 93
+[03-Dec-2025 07:15:17 UTC] PHP Warning:  Undefined variable $id_hasil in /home/mzixenfw/public_html/guru/admin_nilaites.php on line 65
+[03-Dec-2025 07:17:35 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_excel.php on line 2
+[03-Dec-2025 07:17:35 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_excel.php on line 2
+[03-Dec-2025 07:17:35 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mzixenfw/public_html/guru/export_excel.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mzixenfw/public_html/guru/export_excel.php on line 2
+[03-Dec-2025 07:17:37 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_excel.php on line 2
+[03-Dec-2025 07:17:37 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_excel.php on line 2
+[03-Dec-2025 07:17:37 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mzixenfw/public_html/guru/export_excel.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mzixenfw/public_html/guru/export_excel.php on line 2
+[03-Dec-2025 07:17:42 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_excel.php on line 2
+[03-Dec-2025 07:17:42 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_excel.php on line 2
+[03-Dec-2025 07:17:42 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mzixenfw/public_html/guru/export_excel.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mzixenfw/public_html/guru/export_excel.php on line 2
+[03-Dec-2025 07:18:30 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:30 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:30 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mzixenfw/public_html/guru/export_all_excel.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:32 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:32 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mzixenfw/public_html/guru/export_all_excel.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:32 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:32 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mzixenfw/public_html/guru/export_all_excel.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:32 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:32 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mzixenfw/public_html/guru/export_all_excel.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:32 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:32 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:32 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mzixenfw/public_html/guru/export_all_excel.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:33 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:33 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mzixenfw/public_html/guru/export_all_excel.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:33 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:33 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mzixenfw/public_html/guru/export_all_excel.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:33 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:33 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mzixenfw/public_html/guru/export_all_excel.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:33 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:33 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mzixenfw/public_html/guru/export_all_excel.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:33 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:33 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:33 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mzixenfw/public_html/guru/export_all_excel.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:34 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:34 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mzixenfw/public_html/guru/export_all_excel.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:34 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:34 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:18:34 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mzixenfw/public_html/guru/export_all_excel.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:20:49 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:20:49 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:20:49 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mzixenfw/public_html/guru/export_all_excel.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:20:52 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:20:52 UTC] PHP Warning:  require(../vendor/autoload.php): Failed to open stream: No such file or directory in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[03-Dec-2025 07:20:52 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/mzixenfw/public_html/guru/export_all_excel.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/mzixenfw/public_html/guru/export_all_excel.php on line 2
+[02-Feb-2026 16:01:17 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 7 in /home/mzixenfw/public_html/guru/admin_detail_tes.php:93
+Stack trace:
+#0 /home/mzixenfw/public_html/guru/admin_detail_tes.php(93): mysqli_query(Object(mysqli), '\r\n             ...')
+#1 {main}
+  thrown in /home/mzixenfw/public_html/guru/admin_detail_tes.php on line 93
+[02-Feb-2026 17:03:11 UTC] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/mzixenfw/public_html/guru/admin_beranda.php on line 22
+[03-Feb-2026 04:13:40 UTC] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/mzixenfw/public_html/guru/admin_beranda.php on line 22
+[03-Feb-2026 05:34:08 UTC] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/mzixenfw/public_html/guru/admin_beranda.php on line 22
+[03-Feb-2026 06:33:19 UTC] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/mzixenfw/public_html/guru/admin_beranda.php on line 22
+[03-Feb-2026 09:40:53 UTC] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/mzixenfw/public_html/guru/admin_beranda.php on line 22
+[03-Feb-2026 15:48:47 UTC] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/mzixenfw/public_html/guru/admin_beranda.php on line 22
+[03-Feb-2026 15:51:17 UTC] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/mzixenfw/public_html/guru/admin_beranda.php on line 22
+[03-Feb-2026 17:42:32 UTC] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/mzixenfw/public_html/guru/admin_beranda.php on line 22
+[04-Feb-2026 04:36:22 UTC] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/mzixenfw/public_html/guru/admin_beranda.php on line 22
+[04-Feb-2026 17:40:56 UTC] PHP Deprecated:  round(): Passing null to parameter #1 ($num) of type int|float is deprecated in /home/mzixenfw/public_html/guru/admin_beranda.php on line 22
+[07-Feb-2026 06:06:32 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 7 in /home/mzixenfw/public_html/guru/admin_detail_tes.php:93
+Stack trace:
+#0 /home/mzixenfw/public_html/guru/admin_detail_tes.php(93): mysqli_query(Object(mysqli), '\r\n             ...')
+#1 {main}
+  thrown in /home/mzixenfw/public_html/guru/admin_detail_tes.php on line 93

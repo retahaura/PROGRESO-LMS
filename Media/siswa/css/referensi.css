@@ -1,0 +1,92 @@
+.referensi {
+  flex: 1;
+  margin: 40px 40px 40px 40px; /* atas, kanan, bawah, kiri */
+  padding: 32px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.referensi-header {
+  background-color: #f5f5f5;
+  padding: 24px 32px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+
+.referensi-header h1 {
+  font-size: 28px;
+  color: #003554;
+  font-weight: 700;
+}
+
+.referensi-header p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.reference-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;   /* biar kebawah */
+    gap: 14px;                /* jarak antar box */
+}
+
+.reference-list li {
+    background: #ffffff;
+    padding: 10px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.reference-list li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.reference-list a {
+    text-decoration: none;
+    color: #00b6e2;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.reference-list a:hover {
+    text-decoration: underline;
+}
+
+.button-group {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.back-button {
+  background: linear-gradient(135deg, #007bbd, #00b6e2);
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;      /* sesuai permintaan */
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+  background: #00b4d8;      /* warna hover baru */
+  transform: translateY(-2px);
+}
+
+.back-button i {
+  margin-right: 8px;
+  font-size: 16px;
+}
+

@@ -1,0 +1,85 @@
+/* Kontainer utama */
+.modul-container {
+  margin: 60px auto 40px auto;
+  padding: 40px;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  min-height: calc(100vh - 130px); /* agar tidak terlalu panjang atau pendek */
+  max-width: 1000px; /* <- samakan */
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Judul section */
+.section-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #023E8A;
+  text-align: center;
+}
+
+/* Deskripsi penjelasan */
+.deskripsi {
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  color: #333333;
+  background-color: #f0f8ff;
+  padding: 20px;
+  border-left: 5px solid #00B4D8;
+  border-radius: 8px;
+}
+
+/* PDF viewer */
+.pdf-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 30px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+/* Tombol navigasi bawah kiri*/
+.footer {
+  display: flex;
+  justify-content: space-between; /* tombol kiri-kanan sejajar */
+  margin-top: 20px;
+}
+
+.footer a button {
+  padding: 0.7rem 1.5rem;
+  background: linear-gradient(135deg,  #007bbd, #00b6e2);
+  color: rgb(255, 255, 255);
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.8s ease;
+}
+
+.footer a button:hover {
+  background: #00b4d8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.8s ease;
+  opacity: 0.9;
+}
+
+
+
+/* Responsif padding untuk kontainer */
+@media (max-width: 1000px) {
+  .modul-container {
+    padding: 20px; /* lebih kecil untuk layar sempit */
+    margin: 100px 40px 40px 40px; /* beri margin kiri dan kanan */
+  }
+}
+
+@media (max-width: 768px) {
+  .modul-container {
+    padding: 16px;
+    margin: 100px 12px 40px 12px;
+  }
+}

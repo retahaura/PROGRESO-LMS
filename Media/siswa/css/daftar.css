@@ -1,0 +1,166 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f2f4f8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header dan Footer */
+.header, .footer {
+    background: linear-gradient(to right, #00B4D8, #0084ff);
+    color: white;
+    padding: 16px 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .container, .footer .container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+nav a:hover {
+  opacity: 0.8;
+}
+
+/* FOOTER SOCIAL ICONS */
+
+.footer .social-icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer .social-icons a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer .social-icons a:hover {
+    text-decoration: underline;
+}
+
+/* Form Section */
+.form-section {
+    display: flex;
+    justify-content: center;    /* Horizontal center */
+    align-items: center;        /* Vertical center */
+    min-height: calc(100vh - 130px);  /* Tinggi layar dikurangi header+footer */
+    padding: 20px 0;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  font-size: 25px;
+  margin-bottom: 25px;
+  color: #377dff;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.form-container label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  background: #ffffff;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+.form-container input:focus {
+  outline: none;
+  border-color: #0288a7;
+}
+
+.form-container button {
+  background: linear-gradient(135deg,  #007bbd, #00b6e2);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.8s ease;
+  font-weight: 600;
+  width: 100%;
+}
+
+.form-container button:hover {
+ background:#00b4d8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.8s ease;
+  opacity: 0.9;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #3b82f6;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Responsif untuk Split Screen */
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction: row;                /* Tetap horizontal */
+        justify-content: space-between;     /* Logo kiri, link kanan */
+        align-items: center;                /* Tengah vertikal */
+        padding: 10px 20px;                 /* Lebih rapat di layar kecil */
+    }
+
+    nav a {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+}

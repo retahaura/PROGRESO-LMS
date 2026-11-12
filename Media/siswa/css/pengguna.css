@@ -1,0 +1,73 @@
+/* Kontainer Pengaturan Akun */
+.content {
+  margin: 0px auto 40px auto;
+  padding: 40px;
+  box-sizing: border-box;
+  max-width: 1000px;
+  min-height: calc(100vh - 130px); /* agar tidak terlalu panjang atau pendek */
+}
+
+.profile-settings {
+  width: 100%;
+  max-width: 600px;
+  background-color: #ffffff; 
+  padding: 40px;
+  border-radius: 14px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Judul */
+.profile-settings h2 {
+  font-size: 25px;
+  margin-bottom: 25px;
+  color: #042839;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Form */
+.profile-form label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.profile-form input {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  background: #ffffff;
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+  transition: border-color 0.2s;
+}
+
+.profile-form input:focus {
+  outline: none;
+  border-color: #0288a7;
+}
+
+/* Tombol Simpan */
+.profile-form button {
+    background: linear-gradient(135deg,  #007bbd, #00b6e2);
+  font-weight: 600;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block; 
+  transition: background-color 0.8s ease;
+}
+
+
+.profile-form button:hover {
+  background: #00b4d8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+}

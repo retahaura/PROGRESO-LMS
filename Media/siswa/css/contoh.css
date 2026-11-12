@@ -1,0 +1,72 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.judul {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #007B9E;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+.card h2 {
+  color: #007B9E;
+  margin-bottom: 0.5rem;
+}
+
+.video {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+.viewer {
+  width: 100%;
+  height: 400px;
+  background-color: #eef2f5;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: vertical;
+  font-family: inherit;
+}
+
+.btn {
+  background-color: #00ACC1;
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #007F96;
+}

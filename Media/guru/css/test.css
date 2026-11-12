@@ -1,0 +1,180 @@
+.content{
+ flex: 1;
+  margin: 40px 40px 40px 40px; /* atas: 80px (offset topbar), kanan & kiri 40px, bawah 40px */
+  padding: 32px;
+  overflow-y: auto;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+}
+.judul-container{
+  background-color: #f5f5f5;
+  padding: 24px 32px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+.judul-container h1 {
+  font-size: 16x;
+  color: #003554;
+  font-weight: 700;
+}
+
+.tahap-box {
+  background-color: #ffffff;
+  border-radius: 14px;
+  padding: 25px 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border-left: 6px solid #0077b6;
+  transition: transform 0.2s ease;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.tahap-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.12);
+}
+
+.tahap-box h2 {
+  font-size: 20px;
+  color: #003554;
+  margin-bottom: 5px;
+}
+
+.tahap-box p {
+  font-size: 14px;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.question {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.pertanyaan {
+  margin-bottom: 15px;
+}
+
+.pertanyaan input[type="text"] {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.pertanyaan input[type="file"] {
+  display: block;
+  margin-top: 5px;
+}
+
+.choices {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.choice-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.choice-row input[type="text"] {
+  padding: 12px 14px;
+  flex: 1;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.choice-row input[type="file"] {
+  flex: none;
+}
+
+.kunci-jawaban {
+  margin-bottom: 15px;
+}
+
+.kunci-jawaban label {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.kunci-jawaban select {
+  width: 100%;
+   padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.pertanyaan input[type="text"]:focus,
+.pertanyaan input[type="file"]:focus,
+.choice-row input[type="text"]:focus,
+.choice-row input[type="file"]:focus,
+.kunci-jawaban select:focus {
+  border-color: #0077b6;
+  outline: none;
+}
+
+.hapus-soal {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.hapus-soal:hover {
+  background-color: #c0392b;
+}
+
+.tambah-soal, .reset-semua {
+  background: linear-gradient(to right, #0077b6, #00b4d8);
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.tambah-soal:hover, .reset-semua:hover {
+  opacity: 0.9;
+}
+
+.tambah-soal {
+  margin-right: 10px;
+}
+
+.submit{
+  text-align: right;
+  margin-top: 2rem;
+}
+
+.btn-primary {
+  text-decoration: none;
+  background: linear-gradient(135deg,  #007bbd, #00b6e2);
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.8s ease;
+}
+
+.btn-primary:hover {
+  background: #00b4d8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.8s ease;
+  opacity: 0.9;
+}
+
